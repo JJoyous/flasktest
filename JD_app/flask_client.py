@@ -1471,8 +1471,6 @@ def app_solution():
 @app.route('/pagea/pro_details', methods=['GET', 'POST'])
 def pro_details():
     pro_info_show = []
-    # data = request.get_data()
-    # data = get_message(data)
     name = request.form.get('name')
     create_time = request.form.get('create_time')
     id = request.form.get('id')
